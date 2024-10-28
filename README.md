@@ -193,4 +193,7 @@ CREATE TABLE DetalleRevision (
   CONSTRAINT FK_EmpleadoDetalle FOREIGN KEY (IdEmpleado_fk) REFERENCES Empleado(Id)
 );
 ```
+# Base de datos
+
+
 
