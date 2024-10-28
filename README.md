@@ -2,6 +2,7 @@
 
 # CÓDIGO
 
+```sql
 CREATE DATABASE aerolinea;
 USE aerolinea;
 
@@ -191,4 +192,5 @@ CREATE TABLE DetalleRevision (
   CONSTRAINT FK_RevisionDetalle FOREIGN KEY (IdRevision_fk) REFERENCES Revision(Id),
   CONSTRAINT FK_EmpleadoDetalle FOREIGN KEY (IdEmpleado_fk) REFERENCES Empleado(Id)
 );
+```
 
